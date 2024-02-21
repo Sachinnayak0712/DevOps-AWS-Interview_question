@@ -1,0 +1,51 @@
+vertical scaling and horizontal scaling
+horizontal scaling involves adding more machines or nodes to a system, 
+vertical scaling involves adding more power (CPU, RAM, storage, etc.) to an existing machine.
+
+EC2
+AWS stands for Amazon Web Service; it is a collection of remote computing
+services also known as a cloud computing platform
+
+What is VPC?
+VPC stands for Virtual Private Cloud. It allows you to customize your networking
+configuration. It is a network which is logically isolated from another network in
+the cloud. It allows you to have your IP address range, internet gateways, subnet,
+and security groups.
+
+Subnet	
+A segment of a VPC's IP address range where you can place groups of isolated resources.
+A large section of IP Addresses divided into chunks is known as subnets.
+
+What are key-pairs in AWS?
+Key-pairs are secure login information for your virtual machines. To connect to
+the instances, you can use key-pairs which contain a public-key and private-key.
+
+internet gateway
+The Amazon VPC side of a connection to the public Internet.
+
+Classes in IP
+Class	Address Range	
+IP Class A	1 to 126	
+IP Class B	128 to 191	
+IP Class C	192 to 223	
+IP Class D	224 to 239	
+
+What is a loopback IP address used for?  127
+An address that sends outgoing signals back to the same computer for testing. 
+
+What is AWS Lambda?
+Lambda is an Amazon compute service which allows you to run code in the AWS
+Cloud without managing servers
+
+What is Docker? Docker is a tool by using which, we create containers in less time. Docker uses light weight OS in the form of docker images that we will get from docker hub. Docker is open source now.
+
+Docker image is light weight OS provided by docker company. We can get any type of docker image form docker hub.
+
+What is virtualization? 
+Logically dividing big machine into multiple virtual machines so that each virtual machine acts as new server and we can deploy any kind of applications in it.
+Virtualization relies on hypervisors and complete OS instances, providing strong isolation and compatibility with diverse operating systems.
+
+What is Containerization
+containerization runs a single OS instance, with multiple user spaces to isolate processes from one another.
+Containerization, on the other hand, leverages lightweight containers and shared OS, offering increased agility, portability, and scalability
+
