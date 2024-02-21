@@ -33,4 +33,4 @@ Kubernetes, also known as K8s, is an open-source system for automating deploymen
 	6) Horizontal Scalling
 
  # K8 Architecture
- https://github.com/Sachinnayak0712/DevOps-AWS-Interview_question/issues/1#issue-2146599856
+![1692026023846](https://github.com/Sachinnayak0712/DevOps-AWS-Interview_question/assets/66566069/15d2c3b3-e667-4463-a381-732767bfd95e)
