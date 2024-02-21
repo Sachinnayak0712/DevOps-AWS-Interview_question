@@ -34,3 +34,46 @@ Kubernetes, also known as K8s, is an open-source system for automating deploymen
 
  # K8 Architecture
 ![1692026023846](https://github.com/Sachinnayak0712/DevOps-AWS-Interview_question/assets/66566069/15d2c3b3-e667-4463-a381-732767bfd95e)
+# Kubernetes Archetecture
+There are 2 main component 
+	1) Master Node(Controle Plane) -> manages the worker nodes
+	2) Worker Node -> Here Docker Engine is running
+
+Master node -> 
+	1) API server
+	2) Scheduler
+	3) Controller Manager
+	4) etcd
+Worker nodes -> 
+	1) Kublet
+	2) Proxy
+	3) podes
+
+## Master Node
+Control Plane Components
+API server - The API server is a component of the Kubernetes control plane that exposes the Kubernetes API. It is like an initial gateway to the cluster that listens to updates or queries via CLI like Kubectl. Kubectl communicates with API Server to inform what needs to be done like creating pods or deleting pods etc. It also works as a gatekeeper. It generally validates requests received and then forwards them to other processes. No request can be directly passed to the cluster, it has to be passed through the API Server.
+
+Kube-Scheduler
+When API Server receives a request for Scheduling Pods then the request is passed on to the Scheduler. It intelligently decides on which node to schedule the pod for better efficiency of the cluster.
+
+Kube-Controller-Manager
+The kube-controller-manager is responsible for running the controllers that handle the various aspects of the cluster’s control loop. These controllers include the replication controller, which ensures that the desired number of replicas of a given application is running, and the node controller, which ensures that nodes are correctly marked as “ready” or “not ready” based on their current state.
+
+etcd 
+It is a key-value store of a Cluster. The Cluster State Changes get stored in the etcd. It acts as the Cluster brain because it tells the Scheduler and other processes about which resources are available and about cluster state changes.
+
+
+## Worker Node
+Node Components
+These are the nodes where the actual work happens. Each Node can have multiple pods and pods have containers running inside them. There are 3 processes in every Node that are used to Schedule and manage those pods.
+
+Container runtime
+A container runtime is needed to run the application containers running on pods inside a pod. Example-> Docker
+
+kubelet
+ kubelet interacts with both the container runtime as well as the Node. It is the process responsible for starting a pod with a container inside.
+
+kube-proxy
+It is the process responsible for forwarding the request from Services to the pods. It has intelligent logic to forward the request to the right pod in the worker node.
+
+
