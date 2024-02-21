@@ -37,17 +37,26 @@ Kubernetes, also known as K8s, is an open-source system for automating deploymen
 # Kubernetes Archetecture
 There are 2 main component 
 	1) Master Node(Controle Plane) -> manages the worker nodes
+ 
 	2) Worker Node -> Here Docker Engine is running
 
 Master node -> 
 	1) API server
+ 
 	2) Scheduler
+ 
 	3) Controller Manager
+ 
 	4) etcd
+ 
 Worker nodes -> 
+
 	1) Kublet
+ 
 	2) Proxy
+ 
 	3) podes
+ 
 
 ## Master Node
 Control Plane Components
