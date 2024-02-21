@@ -31,3 +31,6 @@ Kubernetes, also known as K8s, is an open-source system for automating deploymen
 		Rollback: The ability to restore back the older working version in case something goes wrong.
   
 	6) Horizontal Scalling
+
+ # K8 Architecture
+ https://github.com/Sachinnayak0712/DevOps-AWS-Interview_question/issues/1#issue-2146599856
