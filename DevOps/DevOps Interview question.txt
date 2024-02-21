@@ -1,8 +1,8 @@
-What is Docker? Docker is a tool by using which, we create containers in less time. Docker uses light weight OS in the form of docker images that we will get from docker hub. Docker is open source now.
-
+# What is Docker? 
+Docker is a tool by using which, we create containers in less time. Docker uses light weight OS in the form of docker images that we will get from docker hub. Docker is open source now.
 Docker image is light weight OS provided by docker company. We can get any type of docker image form docker hub.
 
-What is virtualization? 
+# What is virtualization? 
 Logically dividing big machine into multiple virtual machines so that each virtual machine acts as new server and we can deploy any kind of applications in it.
 Virtualization relies on hypervisors and complete OS instances, providing strong isolation and compatibility with diverse operating systems.
 
