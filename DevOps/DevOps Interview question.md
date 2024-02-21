@@ -15,13 +15,19 @@ Containerization, on the other hand, leverages lightweight containers and shared
 Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications
 
 # Feature of K8
-	Auyomatic Bin Packing
+	1) Automatic Bin Packing
 		Kubernetes automatic bin packing works by intelligently scheduling containers onto nodes in a 	cluster, taking into account factors such as resource requirements, 				utilization, and availability
-	Storage management 
-	Self Healing
-	Services discovery and load balancing
-		Service Discovery enables efficient communication between these instances, while Load 	Balancing ensures that incoming traffic is distributed evenly across the available 			instances
-	Automatic roolout and roolback
+  
+	2) Storage management 
+ 
+	3) Self Healing
+ 
+	4) Services discovery and load balancing
+ 
+		Service Discovery enables efficient communication between these instances, while Load 	Balancing ensures that incoming traffic is distributed evenly across the available 		instances
+  
+	5) Automatic roolout and roolback
 		Rollout: The ability to deploy lates minor version (bugfix, hotfix, minor feature, enhancement) without downtime. 
 		Rollback: The ability to restore back the older working version in case something goes wrong.
-	Horizontal Scalling
+  
+	6) Horizontal Scalling
