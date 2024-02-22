@@ -1,7 +1,7 @@
 # Beginner
 
 ## What is Docker?
-Docker is a tool by using which, we create containers in less time. Docker uses light weight OS in the form of docker images that we will get from docker hub.\
+Docker is a tool by using which, we create containers in less time. Docker uses light weight OS in the form of docker images that we will get from docker hub.
 Docker is open source now. Docker image is light weight OS provided by docker company. We can get any type of docker image form docker hub.
 
 ## What is virtualization.
@@ -9,18 +9,18 @@ Logically dividing big machine into multiple virtual machines so that each virtu
 ## What is containerization.
 containerization runs a single OS instance, with multiple user spaces to isolate processes from one another. Containerization, on the other hand, leverages lightweight containers and shared OS, offering increased agility, portability, and scalability
 
-What is Hypervisor and its type.\
-Difference between virtulization and containerization.\
-What is docker container.\
-What are docker Images.\
-What is docker hub.\
-Docker Architecture.\
-Docker file.\
-Docker compose.\
-Docker swarm.\
-Docker namespace.\
-Docker container life cycle.\
-Docker machine.
+## What is Hypervisor and its type.
+## Difference between virtulization and containerization.
+## What is docker container.
+## What are docker Images.
+## What is docker hub.
+## Docker Architecture.
+## Docker file.
+## Docker compose.
+## Docker swarm.
+## Docker namespace.
+## Docker container life cycle.
+## Docker machine.
 
 # Intermidiate
 
