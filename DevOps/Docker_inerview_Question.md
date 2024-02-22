@@ -1,6 +1,6 @@
 # Beginner
 
-What is Hypervisor and its type
+What is Hypervisor and its type\
 What is virtualization
 What is containerization
 Difference between virtulization and containerization
