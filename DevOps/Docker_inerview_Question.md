@@ -24,20 +24,20 @@ docker version
 How to get the number of containers tunning pused and stopped.\
 docker info
 
-How to help for the docker.
-docker --help
-ex :
-if need to check on run command.
+How to help for the docker.\
+docker --help\
+ex :\
+if need to check on run command.\
 docker run --help
 
-Login into docker repository.
-docker login
+Login into docker repository.\
+docker login\
 enter username and password
 
-Use baseimage and make modification or personalize it.
+Use baseimage and make modification or personalize it.\
 docker pull <image_name>
 
-Create docker container from the image.
+Create docker container from the image.\
 docker run -it -d <image_name>
 
 List all the running container.
