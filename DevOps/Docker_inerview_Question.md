@@ -1,6 +1,6 @@
 # Beginner
 
-### What is Docker?
+## What is Docker?
 Docker is a tool by using which, we create containers in less time. Docker uses light weight OS in the form of docker images that we will get from docker hub.\
 Docker is open source now. Docker image is light weight OS provided by docker company. We can get any type of docker image form docker hub.
 
