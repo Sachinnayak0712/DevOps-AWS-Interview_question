@@ -1,4 +1,4 @@
-
+![1_V8JWIC-tqYQkS1b1edsu3w](https://github.com/Sachinnayak0712/DevOps-AWS-Interview_question/assets/66566069/91bbb407-b22e-4995-810a-2b5e455415ab)
 # K8 
 Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications
 
