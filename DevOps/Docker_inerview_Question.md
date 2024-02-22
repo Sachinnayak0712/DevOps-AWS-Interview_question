@@ -22,7 +22,7 @@ Docker machine.
 docker version
 
 
-## How to get the number of containers tunning pused and stopped.
+### How to get the number of containers tunning pused and stopped.
 docker info
 
 
