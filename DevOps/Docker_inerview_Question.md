@@ -21,14 +21,17 @@ Docker machine.
 How to check docker server and client vesion.\
 docker version
 
+
 How to get the number of containers tunning pused and stopped.\
 docker info
+
 
 How to help for the docker.\
 docker --help\
 ex :\
 if need to check on run command.\
 docker run --help
+
 
 Login into docker repository.\
 docker login\
@@ -40,33 +43,33 @@ docker pull <image_name>
 Create docker container from the image.\
 docker run -it -d <image_name>
 
-List all the running container.
+List all the running container.\
 docker ps
 
-Access a runnig container.
+Access a runnig container.\
 docker exec -it <contianer_id> bash
 
-How to start stop and kill a container.
-docker stop <contianer_id>
-docker start <contianer_id>
+How to start stop and kill a container.\
+docker stop <contianer_id>\
+docker start <contianer_id>\
 docker kill <contianer_id> 
 
-Can u user a contianer, edit it, and update it.
+Can u user a contianer, edit it, and update it.\
 docker commit <container id> <username/imagename>
 
-Once u worker with an image how to push it to docker hub.
+Once u worker with an image how to push it to docker hub.\
 docker push <username/image name>
 
-Delete stoped container.
+Delete stoped container.\
 docker rm <contianer_id> 
 
-Delete an image from  the local storage system.
+Delete an image from  the local storage system.\
 docker rmi <image-id>
 
-Build docker file.
+Build docker file.\
 docker build <path to docker file>
 
-Docker system prune.
+Docker system prune.\
 used to remove all netwok not in use, stopped container, dangling image, build cache
 
 
