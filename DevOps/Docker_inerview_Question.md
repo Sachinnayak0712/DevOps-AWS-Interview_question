@@ -18,7 +18,7 @@ Docker machine.
 
 # Intermidiate
 
-How to check docker server and client vesion.\
+## How to check docker server and client vesion.\
 docker version
 
 
