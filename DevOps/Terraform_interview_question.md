@@ -13,7 +13,7 @@ There a 4 stages\
 Terraform init - used to create a operational directory.\
 Terraform plan - implements an execution strategy. \
 Terraform apply - Ensures that the plan is set in motion in the timeframe. \
-Terraform destroy - used to eliminate all the applied resources.\
+Terraform destroy - used to eliminate all the applied resources.
 ## Define null resources in Terraform
 null resources implements standard resources library, but no further action is taken. The trigge t argument allows an orbitory set of valued the will cause the replacement of resources when changed.
 ## How does terraform work
