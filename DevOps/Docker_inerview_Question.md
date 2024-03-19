@@ -16,6 +16,7 @@ containerization runs a single OS instance, with multiple user spaces to isolate
 ## Difference between virtulization and containerization.
 ## What is docker container.
 ## What are docker Images.
+Docker images are read-only templates that contain instructions for creating a container. A Docker image is a snapshot or blueprint of the libraries and dependencies required inside a container for an application to run.
 ## What is docker hub.
 ## Docker Architecture.
 ## Docker file.
