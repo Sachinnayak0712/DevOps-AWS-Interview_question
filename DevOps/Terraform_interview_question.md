@@ -4,7 +4,9 @@
 
 # Beginner
 ## what is terraform
+Terraform, an open source “Infrastructure as Code” tool created by HashiCorp, allows programmers to build, change and version infrastructure safely and efficiently.
 ## Why Terraform is used for Devops
+Terraform is an infrastructure as code (IaC) software tool that allows DevOps teams to automate infrastructure provisioning using reusable, shareable, human-readable configuration files. The tool can automate infrastructure provisioning in both on-premises and cloud environments.
 ## What is Terraform Init
 Terraform initializes the code using the command terrafom init. this command  is used to initialize the working directory containing Terraform configuration file.\
 Plugin Installation, Child Module Installation, Back-end Initialization
